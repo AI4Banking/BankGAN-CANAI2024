@@ -1,0 +1,17 @@
+{
+    "max_seq_len": 80,
+    "min_seq_len": 20,
+    "batch_size": 64,
+   
+    "epochs": 2,
+    "early_stop": 5,
+    "conditional training" : 0,
+    "len_generated_seq": 80,
+    "num_generated_seq" : 5000,
+    "AdamoptimizerParameters":"default",
+    "strategy" : "banksformer",
+    "data_path": "../DATA/tr_by_acct_w_age.csv",
+    "synth_data_filename": "synth_lstm_dp1.csv",
+    "loss_data_filename" : "loss_lstm_dp1.csv",
+    "description": "no description"
+}
