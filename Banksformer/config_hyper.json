@@ -1,0 +1,22 @@
+{
+    "max_seq_len": 80,
+    "min_seq_len": 20,
+    "batch_size": 64,
+    "d_embedding": 64,
+    "dff": 64,
+    "d_model": 64,
+    "maximum_position_encoding": 256,
+    "rate": 0.1,
+    "num_heads": 2,
+    "num_layers": 4,
+    "epochs": 80,
+    "early_stop": 5,
+    "len_generated_seq": 80,
+    "num_generated_seq" : 5000,
+    "AdamoptimizerParameters":"default",
+    "strategy" : "banksformer",
+    "data_path": "../DATA/tr_by_acct_w_age.csv",
+    "synth_data_filename": "synth_clock3.csv",
+    "loss_data_filename" : "loss_clock3.csv",
+    "description": "no description"
+}
